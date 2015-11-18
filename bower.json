@@ -1,0 +1,22 @@
+{
+  "name": "jr-clipboard",
+  "version": "0.0.0",
+  "authors": [
+    "resiak.jan@gmail.com"
+  ],
+  "description": "",
+  "main": "ClipboardDirective.js",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "https://github.com/janresiak",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+	"angular": ">= 1.3.0"
+  }
+}
