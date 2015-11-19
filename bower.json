@@ -1,22 +1,35 @@
 {
-  "name": "jr-clipboard",
-  "version": "0.0.0",
-  "authors": [
-    "resiak.jan@gmail.com"
-  ],
-  "description": "",
-  "main": "ClipboardDirective.js",
-  "moduleType": [],
-  "license": "MIT",
-  "homepage": "https://github.com/janresiak",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-	"angular": ">= 1.3.0"
-  }
+    "name": "jr-clipboard",
+    "version": "1.0.0",
+    "description": "Copy $scope property by click passed HTML element",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jan Resiak",
+            "email": "resiak.jan@gmail.com",
+            "homepage": ""
+        }
+    ],
+    "keywords": [
+        "angular",
+        "directive",
+        "helper",
+        "copy"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/janresiak/jr-clipboard.git"
+    },
+    "main": "lib/ClipboardDirective.js",
+    "moduleType": [],
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "angular": ">= 1.3.0"
+    }
 }

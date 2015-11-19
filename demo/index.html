@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo :: jr-clipboard</title>
+    <link rel="stylesheet" href="styles/main.css"/>
+</head>
+<body>
+    <h1>Demo :: jr-clipboard</h1>
+
+    <fieldset>
+        <label>
+            Car:
+            <input type="text" ng-model="car" ng-init="car='Ferrari'"/>
+        </label>
+        <button clipboard copy="car">copy</button>
+    </fieldset>
+
+    <h2>How it works?</h2>
+
+    <ol>
+        <li>Put something in input</li>
+        <li>Click button</li>
+        <li>Paste somewhere copied value from input</li>
+    </ol>
+
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="../lib/ClipboardDirective.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
