@@ -1,17 +1,36 @@
-# Get started
-##### download library in one of the following ways:
-* clone repository
-* using bower ( `jr-clipboard` )
+# jr-clipboard
 
-##### include library:
-* add library file to `index.html` file
+![](https://img.shields.io/bower/v/jr-clipboard.svg)
+![](https://img.shields.io/bower/l/jr-clipboard.svg)
 
-##### dependency:
-* add `jr.clipboard` as dependency to your project
+> Copy $scope property by click passed HTML element
 
-##### usage:
-* as element `<clipboard copy="variable">copy</clipboard>`
-* as attribute `<button clipboard copy="variable">copy<button>`
+## Get started
 
-##### result:
-* just click, you'll find your `{{variable}}` in clipboard
+### Install
+
+```
+bower install jr-clipboard
+```
+
+Add library file to `index.html`.
+
+### Setup
+
+Add `jr.clipboard` as dependency to your project.
+
+### Usage
+
+```
+<clipboard copy="variable">copy</clipboard>
+```
+
+or
+
+```
+<button clipboard copy="variable">copy</button>
+```
+
+### Result
+
+Just click, you'll find your `{{variable}}` in clipboard
