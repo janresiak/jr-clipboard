@@ -15,6 +15,13 @@ bower install jr-clipboard
 
 Add library file to `index.html`.
 
+### Demo
+
+```
+bower install
+```
+Install dependencies in `jr-clipboard` directory, and open `demo/index.html`.
+
 ### Setup
 
 Add `jr.clipboard` as dependency to your project.
